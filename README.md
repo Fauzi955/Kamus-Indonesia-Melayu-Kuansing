@@ -1,1 +1,1 @@
-# Kamus-Indonesia-Melayu-Kuansing
+# Kamus Indonesia-Melayu Kuansing
