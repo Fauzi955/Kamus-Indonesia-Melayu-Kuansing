@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kamus Indonesia–Melayu Riau</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #004d40;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #004d40;
+      color: white;
+    }
+    tfoot td {
+      border: none;
+      text-align: center;
+      padding: 2rem 1rem 0 1rem;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kamus Indonesia–Melayu Riau</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Entri (Indonesia)</th>
+        <th>Kelas Kata</th>
+        <th>Makna</th>
+        <th>Padanan Melayu Riau</th>
+        <th>Turunan/Bentukan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>cabai</td>
+        <td>nomina</td>
+        <td>buah tanaman dari genus Capsicum yang pedas</td>
+        <td>lada</td>
+        <td>cabai-cabaian</td>
+      </tr>
+      <tr>
+        <td>cacing</td>
+        <td>nomina</td>
+        <td>hewan bertubuh lunak dan panjang tanpa kaki</td>
+        <td>cacing</td>
+        <td>cacingan</td>
+      </tr>
+      <tr>
+        <td>cair</td>
+        <td>adjektiva</td>
+        <td>berwujud seperti air</td>
+        <td>cair</td>
+        <td>mencair, pencairan</td>
+      </tr>
+      <tr>
+        <td>cakap</td>
+        <td>verba</td>
+        <td>berbicara</td>
+        <td>cakap</td>
+        <td>bercakap, percakapan</td>
+      </tr>
+      <tr>
+        <td>cakar</td>
+        <td>nomina</td>
+        <td>kuku atau jari hewan buas</td>
+        <td>cakar</td>
+        <td>mencakar, cakaran</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">Disusun oleh Azmi Ridwan Fauzi</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
