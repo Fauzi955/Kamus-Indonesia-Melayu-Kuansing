@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kamus Indonesia–Melayu Riau</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 2rem;
-      background-color: #f4f4f4;
+      background-color: #f9f9f9;
       color: #333;
     }
     h1 {
       text-align: center;
-      color: #004d40;
+      color: #00695c;
     }
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 2rem;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: white;
     }
     th, td {
-      padding: 0.75rem;
       border: 1px solid #ccc;
+      padding: 0.75rem;
       text-align: left;
     }
     th {
-      background-color: #004d40;
-      color: white;
+      background-color: #e0f2f1;
     }
-    tfoot td {
-      border: none;
+    tr:nth-child(even) {
+      background-color: #f1f1f1;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
       text-align: center;
-      padding: 2rem 1rem 0 1rem;
-      font-style: italic;
-      color: #555;
+      color: #777;
     }
   </style>
 </head>
@@ -45,55 +45,43 @@
   <table>
     <thead>
       <tr>
-        <th>Entri (Indonesia)</th>
+        <th>No.</th>
+        <th>Lema</th>
         <th>Kelas Kata</th>
         <th>Makna</th>
         <th>Padanan Melayu Riau</th>
-        <th>Turunan/Bentukan</th>
+        <th>Bentuk Jadian/Turunan</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>cabai</td>
-        <td>nomina</td>
-        <td>buah tanaman dari genus Capsicum yang pedas</td>
-        <td>lada</td>
-        <td>cabai-cabaian</td>
-      </tr>
-      <tr>
-        <td>cacing</td>
-        <td>nomina</td>
-        <td>hewan bertubuh lunak dan panjang tanpa kaki</td>
-        <td>cacing</td>
-        <td>cacingan</td>
-      </tr>
-      <tr>
-        <td>cair</td>
-        <td>adjektiva</td>
-        <td>berwujud seperti air</td>
-        <td>cair</td>
-        <td>mencair, pencairan</td>
-      </tr>
-      <tr>
-        <td>cakap</td>
+        <td>1</td>
+        <td>bertemu</td>
         <td>verba</td>
-        <td>berbicara</td>
-        <td>cakap</td>
-        <td>bercakap, percakapan</td>
+        <td>saling melihat dan berbincang</td>
+        <td>berjumpa</td>
+        <td>pertemuan, mempertemukan</td>
       </tr>
       <tr>
-        <td>cakar</td>
-        <td>nomina</td>
-        <td>kuku atau jari hewan buas</td>
-        <td>cakar</td>
-        <td>mencakar, cakaran</td>
+        <td>2</td>
+        <td>mencintai</td>
+        <td>verba</td>
+        <td>menaruh rasa kasih yang mendalam</td>
+        <td>menyayo</td>
+        <td>cinta, tercinta, mencintakan</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>lelah</td>
+        <td>adjektiva</td>
+        <td>merasa letih atau capai</td>
+        <td>letih, capek</td>
+        <td>kelelahan</td>
       </tr>
     </tbody>
-    <tfoot>
-      <tr>
-        <td colspan="5">Disusun oleh Azmi Ridwan Fauzi</td>
-      </tr>
-    </tfoot>
   </table>
+  <div class="footer">
+    &copy; 2025 Kamus Indonesia–Melayu Riau | Disusun oleh Raina Nazira Nurikhsan
+  </div>
 </body>
 </html>
